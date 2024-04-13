@@ -22,7 +22,7 @@ const Navbar = () => {
           <GiSplitCross className="text-[#8F9CFF]"/>
          }
          </div>
-            <ul className={`sm:flex sm:static absolute bg-[#c7c7c74a] sm:backdrop-blur-none backdrop-blur-xl sm:rounded-none rounded-xl sm:p-0 p-[40px] sm:w-fit w-[310px] sm:right-0 ${barshow ? "top-[-650px]" : "top-[60px]"} sm:h-0 h-[350px] duration-300 sm:z-0 z-10 sm:top-0 top-[60px] sm:items-center lg:gap-[40px] md:gap-[25px] sm:gap-[12px]  sm:text-start text-center text-primary font-inter lg:text-[15px] md:text-[11px] sm:text-[10px] text-[13px] font-medium`}>
+            <ul className={`sm:flex sm:static absolute bg-[#c7c7c74a] sm:backdrop-blur-none backdrop-blur-xl sm:rounded-none rounded-xl sm:p-0 p-[40px] sm:w-fit w-[310px] sm:right-0        ${barshow ? "top-[-350px]" : "top-[60px]"} sm:h-0 h-[350px] duration-300 sm:z-0 z-10 sm:top-0 top-[60px] sm:items-center lg:gap-[40px] md:gap-[25px] sm:gap-[12px]  sm:text-start text-center text-primary font-inter lg:text-[15px] md:text-[11px] sm:text-[10px] text-[13px] font-medium`}>
                 <li className="sm:pb-0 pb-[40px]"><a href="">About Us</a></li>
                 <li className="sm:pb-0 pb-[40px]"><a href="">Features</a></li>
                 <li className="sm:pb-0 pb-[40px]"><a href="">Pricing</a></li>
